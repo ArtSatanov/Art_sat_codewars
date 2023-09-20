@@ -51,12 +51,70 @@
 
 // kata 5
 
+// function zero(arg) {
+//    return arg ? arg(0) : 0;
+// }
+
+// function one(arg) {
+//    return arg ? arg(1) : 1;
+// }
 
 
+// function two(arg) {
+//    return arg ? arg(2) : 2;
+// }
 
-function two() {
-   
-}
-function three() {}
 
-function plus() {}
+// function three(arg) {
+//    return arg ? arg(3) : 3;
+// }
+
+// function four(arg) {
+//    return arg ? arg(4) : 4;
+// }
+
+// function five(arg) {
+//    return arg ? arg(5) : 5;
+// }
+
+// function six(arg) {
+//    return arg ? arg(6) : 6;
+// }
+
+// function seven(arg) {
+//    return arg ? arg(7) : 7;
+// }
+
+// function eight(arg) {
+//    return arg ? arg(8) : 8;
+// }
+
+// function nine(arg) {
+//    return arg ? arg(9) : 9;
+// }
+
+// function times(b) {
+//    return function (a) {
+//       return a * b;
+//    }
+// }
+
+// function dividedBy(b) {
+//    return function (a) {
+//       return Math.floor(a/b);
+//    }
+// }
+
+// function minus(b) {
+//    return function (a) {
+//       return a - b;
+//    };
+// }
+
+// function plus(b) {
+//    return function (a) {
+//       return a + b;
+//    };
+// }
+
+// console.log(two(plus(three())));
