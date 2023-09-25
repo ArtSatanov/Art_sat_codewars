@@ -156,4 +156,22 @@
 // kata6 
 
 
+// function solution(string) {
+//    const newArray = string.split('');
+//    const mutedArray = [];
+//    console.log(newArray);
+
+//    for (let i = 0; i < newArray.length; i += 1) {
+//       if (newArray[i] === newArray[i].toLowerCase()) {
+//          mutedArray.push(newArray[i]);
+//       } else if (newArray[i] === newArray[i].toUpperCase()) {
+//          mutedArray.push(' ');
+//          mutedArray.push(newArray[i]);
+//       }
+//    }
+   
+//    return mutedArray.join('');
+// }
+
+// solution("camelCasing");
 
