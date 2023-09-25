@@ -140,17 +140,20 @@
    
 // uniqueInOrder('AAAABBBCCDAABBB')
 
-function domainName(url){
-   const urlnew = new URL(url);
-   const newArray = urlnew.host.split('.').filter(value => value !== 'www').filter(value => value !== 'com').filter(value => value !== 'co').filter(value => value !== 'jp').join('');
+// function domainName(url){
+//    const urlnew = url.replace("http://", "").replace("http://www.", "").replace("www.", "").replace("https://", "").replace(/\..+/, "");
+//    return urlnew;
+// }
 
-   return newArray;
-}
+// domainName("http://github.com/carbonfive/raygun")
+// domainName("http://www.zombie-bites.com")
+// domainName("https://www.cnet.com")
+// domainName("http://google.co.jp")
+// domainName("www.xakep.ru")
+// domainName("https://youtube.com")
 
-domainName("http://github.com/carbonfive/raygun")
-domainName("http://www.zombie-bites.com")
-domainName("https://www.cnet.com")
-domainName("http://google.co.jp")
 
-   // console.log(urlnew);
-   console.log(newArray);
+// kata6 
+
+
+
