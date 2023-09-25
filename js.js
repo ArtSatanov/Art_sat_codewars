@@ -118,3 +118,39 @@
 // }
 
 // console.log(two(plus(three())));
+
+// Kata 6
+
+// var uniqueInOrder = function (iterable) {
+//    const iterableArray = iterable.split('');
+//    const indexArray = [];
+//    const newArray = [];
+//    for (let i = 0; i < iterableArray.length; i += 1) {
+//       if (iterableArray[i] != iterableArray[i + 1]) {
+//          indexArray.push(i);
+//       }
+//    }
+//    console.log(indexArray)
+//    console.log(iterableArray)
+//    console.log(newArray)
+//    }
+
+
+
+   
+// uniqueInOrder('AAAABBBCCDAABBB')
+
+function domainName(url){
+   const urlnew = new URL(url);
+   const newArray = urlnew.host.split('.').filter(value => value !== 'www').filter(value => value !== 'com').filter(value => value !== 'co').filter(value => value !== 'jp').join('');
+
+   return newArray;
+}
+
+domainName("http://github.com/carbonfive/raygun")
+domainName("http://www.zombie-bites.com")
+domainName("https://www.cnet.com")
+domainName("http://google.co.jp")
+
+   // console.log(urlnew);
+   console.log(newArray);
